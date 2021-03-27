@@ -3,7 +3,7 @@ public clase pc{
     public static void public static void main(String[] args) 
     {
         Scanner leer=new Scanner(System.in);
-
+        System.out.println("Ingrese un valor para n:");
         n= leer.nextInt();
         int matriz [][] = new int [n][n];
 
